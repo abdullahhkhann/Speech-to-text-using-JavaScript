@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Speech To Text </title>
+    <link rel="stylesheet" href="indexCSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="indexJS.js"></script>
+  </head>
+
+  <body>
+
+    <h1 align="center">Speech To Text Using JavaScript</h1>
+
+    <div contenteditable="true">
+      <p spellcheck="true"><textarea id="textbox" rows="12" placeholder="Click on the mic to start recording..."></textarea></p>
+    </div>
+
+    <p>
+      <button id="startBtn" title="Start Recording"><span class="material-icons">keyboard_voice</span></button>
+      <button class="stopBtn" title="Stop Recording"><span class="material-icons">stop</span></button>
+      <button class="clearBtn" title="Clear Text"><span class="material-icons">delete_sweep</span></button>
+    </p>
+
+    <p class="instructions"></p>
+
+  </body>
+</html>
